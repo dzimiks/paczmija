@@ -12,10 +12,22 @@ public class SnakeLayer implements Drawable {
     int tick;
     private SecureRandom rnd;
 
+    int headX;
+    int headY;
+
+    int speedX = 0;
+    int speedY = 0;
+
     public SnakeLayer(){
         this.tick = 0;
         segments = new LinkedList<>();
         segments.add(new Segment(5, 5));
+
+        headX = 5;
+        headY = 5;
+
+        speedX = 1;
+        speedY = 1;
 
         rnd = new SecureRandom();
     }
@@ -32,9 +44,15 @@ public class SnakeLayer implements Drawable {
     public void tick() {
         tick++;
 
-        if(tick % 10 == 0){
-            segments.add(new Segment(this.rnd.nextInt(80), this.rnd.nextInt(60)));
-            System.out.println("New Segment");
+        if(tick % 10 == 0) {
+            if (tick % 100 != 0) {
+                segments.removeFirst();
+            }
+
+            headX += speedX;
+            headY += speedY;
+
+            segments.add(new Segment(headX, headY));
         }
     }
 }
