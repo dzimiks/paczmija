@@ -11,7 +11,7 @@ import java.io.IOException;
 public class BlurLayer implements Drawable {
     private BufferedImage frost;
 
-    public BlurLayer(){
+    public BlurLayer() {
         try {
             frost = ImageIO.read(new File("images/frost.png"));
         } catch (IOException e) {
@@ -21,7 +21,7 @@ public class BlurLayer implements Drawable {
 
     @Override
     public void draw(Graphics2D graphics2D, int i, int i1) {
-        graphics2D.drawImage(this.frost, 0,0, this.frost.getWidth(), this.frost.getHeight(), null);
+        graphics2D.drawImage(this.frost, 0, 0, this.frost.getWidth(), this.frost.getHeight(), null);
     }
 
     @Override

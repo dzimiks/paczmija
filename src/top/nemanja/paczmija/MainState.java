@@ -8,7 +8,7 @@ import top.nemanja.paczmija.layers.*;
 import java.awt.*;
 
 public class MainState extends GameState {
-    public MainState(GameHost host){
+    public MainState(GameHost host) {
         super(host);
     }
 
@@ -70,7 +70,7 @@ public class MainState extends GameState {
 
     @Override
     public void handleKeyDown(int i) {
-        switch(i){
+        switch (i) {
             case 38:
                 KeyEmitter.callListeners("up");
                 break;

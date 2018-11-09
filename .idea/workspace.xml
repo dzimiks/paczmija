@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="066cf5f5-b2f9-4626-a13a-81a3bfa8b4b4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/top/nemanja/paczmija/KeyEmitter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/nemanja/paczmija/KeyEmitter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/top/nemanja/paczmija/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/nemanja/paczmija/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/top/nemanja/paczmija/MainState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/nemanja/paczmija/MainState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/top/nemanja/paczmija/layers/BackgroundLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/nemanja/paczmija/layers/BackgroundLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/top/nemanja/paczmija/layers/BlurLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/nemanja/paczmija/layers/BlurLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/top/nemanja/paczmija/layers/SnakeLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/nemanja/paczmija/layers/SnakeLayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/top/nemanja/paczmija/layers/SnowLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/nemanja/paczmija/layers/SnowLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/top/nemanja/paczmija/layers/graphicObjects/Snowflake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/nemanja/paczmija/layers/graphicObjects/Snowflake.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,64 +56,44 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-392572614">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.lifecycle.project" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.spring.boot.run.usages" />
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/layers/BlurLayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/layers/BackgroundLayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="52" column="14" selection-start-line="52" selection-end-line="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/layers/graphicObjects/Snowflake.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/layers/SnakeLayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="57" column="60" selection-start-line="57" selection-start-column="60" selection-end-line="57" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/layers/SnowLayer.java">
+        <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="225">
+              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -140,18 +128,24 @@
         <option value="$PROJECT_DIR$/src/top/nemanja/paczmija/Snow.java" />
         <option value="$PROJECT_DIR$/src/top/nemanja/paczmija/BackgroundLayer.java" />
         <option value="$PROJECT_DIR$/src/top/nemanja/paczmija/layers/SnowDrawable.java" />
-        <option value="$PROJECT_DIR$/src/top/nemanja/paczmija/Drawable.java" />
-        <option value="$PROJECT_DIR$/src/top/nemanja/paczmija/layers/BackgroundLayer.java" />
-        <option value="$PROJECT_DIR$/src/top/nemanja/paczmija/Main.java" />
         <option value="$PROJECT_DIR$/src/top/nemanja/paczmija/KeyEmitterListener.java" />
-        <option value="$PROJECT_DIR$/src/top/nemanja/paczmija/MainState.java" />
+        <option value="$PROJECT_DIR$/src/top/nemanja/paczmija/Main.java" />
+        <option value="$PROJECT_DIR$/src/top/nemanja/paczmija/Drawable.java" />
         <option value="$PROJECT_DIR$/src/top/nemanja/paczmija/KeyEmitter.java" />
+        <option value="$PROJECT_DIR$/src/top/nemanja/paczmija/MainState.java" />
+        <option value="$PROJECT_DIR$/src/top/nemanja/paczmija/layers/BackgroundLayer.java" />
         <option value="$PROJECT_DIR$/src/top/nemanja/paczmija/layers/BlurLayer.java" />
-        <option value="$PROJECT_DIR$/src/top/nemanja/paczmija/layers/graphicObjects/Snowflake.java" />
         <option value="$PROJECT_DIR$/src/top/nemanja/paczmija/layers/SnakeLayer.java" />
         <option value="$PROJECT_DIR$/src/top/nemanja/paczmija/layers/SnowLayer.java" />
+        <option value="$PROJECT_DIR$/src/top/nemanja/paczmija/layers/graphicObjects/Snowflake.java" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="20" />
@@ -165,7 +159,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,32 +180,17 @@
             </path>
             <path>
               <item name="paczmija" type="b2602c69:ProjectViewProjectNode" />
-              <item name="paczmija" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="paczmija" type="462c0819:PsiDirectoryNode" />
-              <item name="layers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="paczmija" type="b2602c69:ProjectViewProjectNode" />
-              <item name="paczmija" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="paczmija" type="462c0819:PsiDirectoryNode" />
-              <item name="layers" type="462c0819:PsiDirectoryNode" />
-              <item name="graphicObjects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="paczmija" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541790038149" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541792280088" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/RAFGFXlib.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -234,7 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="top.nemanja.paczmija.Main" />
       <module name="paczmija" />
@@ -245,9 +224,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All Features in: .idea" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="3" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/.idea" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="paczmija" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
+      <option name="SUGGESTED_NAME" value="All Features in: .idea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Cucumber java.All Features in: .idea" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Cucumber java.All Features in: .idea" />
       </list>
     </recent_temporary>
   </component>
@@ -264,11 +265,19 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="All_Features_in___idea - 2018.11.09 at 20h 24m 44s.xml">
+      <configuration name="All Features in: .idea" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="809000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="20" width="1326" height="709" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.70953435" visible="true" weight="0.19003116" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.70953435" visible="true" weight="0.18955651" />
       <window_info id="Structure" order="1" sideWeight="0.29046562" side_tool="true" weight="0.18535826" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -277,7 +286,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27712855" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26889715" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3987034" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -365,80 +374,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/effects.java" />
     <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/layers/graphicObjects.java" />
-    <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/MainState.java">
+    <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/Drawable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="71" column="38" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
+        <state relative-caret-position="75">
+          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/KeyEmitter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/KeyEmitterListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/MainState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
             <element signature="e#307#308#0" expanded="true" />
             <element signature="e#334#335#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/KeyEmitter.java">
+    <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/layers/BackgroundLayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="36" column="75" selection-start-line="36" selection-start-column="75" selection-end-line="36" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/KeyEmitterListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/Drawable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="10">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/layers/BlurLayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/layers/BackgroundLayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="52" column="14" selection-start-line="52" selection-end-line="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/layers/graphicObjects/Snowflake.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/layers/SnakeLayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="57" column="60" selection-start-line="57" selection-start-column="60" selection-end-line="57" selection-end-column="60" />
+        <state relative-caret-position="195">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -447,10 +436,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/layers/SnowLayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="181">
+          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/layers/SnakeLayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="153" lean-forward="true" selection-start-line="153" selection-end-line="153" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3763#3764#0" expanded="true" />
+            <element signature="e#3792#3793#0" expanded="true" />
+            <element signature="e#3817#3818#0" expanded="true" />
+            <element signature="e#3846#3847#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/layers/graphicObjects/Snowflake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
           </folding>
         </state>
       </provider>

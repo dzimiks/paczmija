@@ -21,7 +21,7 @@ public class SnakeLayer implements Drawable, KeyEmitterListener {
     int speedX = 0;
     int speedY = 0;
 
-    public SnakeLayer(){
+    public SnakeLayer() {
         this.tick = 0;
         segments = new LinkedList<>();
         segments.add(new Segment(5, 5));
@@ -53,10 +53,10 @@ public class SnakeLayer implements Drawable, KeyEmitterListener {
 
         int in = 0;
 
-        for(Segment segment: segments){
+        for (Segment segment : segments) {
             in++;
-            graphics2D.setColor(colors[(segments.size() + in ) % colors.length]);
-            graphics2D.fillRect(15 + segment.getX() * 10, 15 + segment.getY() * 10, 9,9);
+            graphics2D.setColor(colors[(segments.size() + in) % colors.length]);
+            graphics2D.fillRect(15 + segment.getX() * 10, 15 + segment.getY() * 10, 9, 9);
         }
     }
 
@@ -64,12 +64,12 @@ public class SnakeLayer implements Drawable, KeyEmitterListener {
     public void tick() {
         tick++;
 
-        if(tick % 10 == 0) {
-            if(headX + speedX > 76 || headX + speedX < 0){
+        if (tick % 10 == 0) {
+            if (headX + speedX > 76 || headX + speedX < 0) {
                 return;
             }
 
-            if(headY + speedY > 56 || headY + speedY < 0){
+            if (headY + speedY > 56 || headY + speedY < 0) {
                 return;
             }
 
@@ -82,19 +82,19 @@ public class SnakeLayer implements Drawable, KeyEmitterListener {
 
             boolean hit = false;
 
-            for(Segment segment: segments){
-                if(segment.getX() == headX && segment.getY() == headY){
+            for (Segment segment : segments) {
+                if (segment.getX() == headX && segment.getY() == headY) {
                     hit = true;
                 }
             }
 
-            if(hit){
+            if (hit) {
                 ArrayList<Segment> toDelete = new ArrayList<>();
 
-                for(Segment segment: segments){
+                for (Segment segment : segments) {
                     toDelete.add(segment);
 
-                    if(segment.getX() == headX && segment.getY() == headY){
+                    if (segment.getX() == headX && segment.getY() == headY) {
                         break;
                     }
                 }
@@ -110,9 +110,9 @@ public class SnakeLayer implements Drawable, KeyEmitterListener {
 
     @Override
     public void keyPressed(String key) {
-        switch(key){
+        switch (key) {
             case "up":
-                if(direction != "down") {
+                if (direction != "down") {
                     speedX = 0;
                     speedY = -1;
 
@@ -120,7 +120,7 @@ public class SnakeLayer implements Drawable, KeyEmitterListener {
                 }
                 break;
             case "down":
-                if(direction != "up") {
+                if (direction != "up") {
                     speedX = 0;
                     speedY = 1;
 
@@ -128,7 +128,7 @@ public class SnakeLayer implements Drawable, KeyEmitterListener {
                 }
                 break;
             case "left":
-                if(direction != "right") {
+                if (direction != "right") {
                     speedX = -1;
                     speedY = 0;
 
@@ -136,7 +136,7 @@ public class SnakeLayer implements Drawable, KeyEmitterListener {
                 }
                 break;
             case "right":
-                if(direction != "left") {
+                if (direction != "left") {
                     speedX = 1;
                     speedY = 0;
 
@@ -148,20 +148,20 @@ public class SnakeLayer implements Drawable, KeyEmitterListener {
     }
 }
 
-class Segment{
+class Segment {
     private int x;
     private int y;
 
-    public Segment(int x, int y){
+    public Segment(int x, int y) {
         this.x = x;
         this.y = y;
     }
 
-    public int getX(){
+    public int getX() {
         return this.x;
     }
 
-    public int getY(){
+    public int getY() {
         return this.y;
     }
 }

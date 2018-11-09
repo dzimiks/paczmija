@@ -16,7 +16,7 @@ public class Snowflake implements Drawable {
 
     private double size;
 
-    public Snowflake(){
+    public Snowflake() {
         int width = Main.getGameHost().getWidth();
         int height = Main.getGameHost().getHeight();
 
@@ -33,15 +33,15 @@ public class Snowflake implements Drawable {
         size = rnd.nextDouble() * 10;
     }
 
-    public boolean isInScreen(){
+    public boolean isInScreen() {
         int width = Main.getGameHost().getWidth();
         int height = Main.getGameHost().getHeight();
 
-        if(this.xPos < 0 || this.xPos > width){
+        if (this.xPos < 0 || this.xPos > width) {
             return false;
         }
 
-        if(this.yPos > height){
+        if (this.yPos > height) {
             return false;
         }
 
@@ -51,7 +51,7 @@ public class Snowflake implements Drawable {
     @Override
     public void draw(Graphics2D graphics2D, int i, int i1) {
         graphics2D.setColor(Color.white);
-        graphics2D.fillOval((int)this.xPos, (int)this.yPos, (int)size, (int)size);
+        graphics2D.fillOval((int) this.xPos, (int) this.yPos, (int) size, (int) size);
     }
 
     @Override

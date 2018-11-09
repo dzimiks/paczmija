@@ -16,7 +16,7 @@ public class Main {
         host.setState("game");
     }
 
-    public static GameHost getGameHost(){
+    public static GameHost getGameHost() {
         return Main.gameHost;
     }
 }
