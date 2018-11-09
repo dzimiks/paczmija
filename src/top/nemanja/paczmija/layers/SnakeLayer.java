@@ -1,12 +1,14 @@
 package top.nemanja.paczmija.layers;
 
 import top.nemanja.paczmija.Drawable;
+import top.nemanja.paczmija.KeyEmitter;
+import top.nemanja.paczmija.KeyEmitterListener;
 
 import java.awt.*;
 import java.security.SecureRandom;
 import java.util.LinkedList;
 
-public class SnakeLayer implements Drawable {
+public class SnakeLayer implements Drawable, KeyEmitterListener {
     LinkedList<Segment> segments;
 
     int tick;
@@ -27,9 +29,14 @@ public class SnakeLayer implements Drawable {
         headY = 5;
 
         speedX = 1;
-        speedY = 1;
+        speedY = 0;
 
         rnd = new SecureRandom();
+
+        KeyEmitter.listen("up", this);
+        KeyEmitter.listen("down", this);
+        KeyEmitter.listen("left", this);
+        KeyEmitter.listen("right", this);
     }
 
     @Override
@@ -53,6 +60,29 @@ public class SnakeLayer implements Drawable {
             headY += speedY;
 
             segments.add(new Segment(headX, headY));
+        }
+    }
+
+    @Override
+    public void keyPressed(String key) {
+        switch(key){
+            case "up":
+                speedX = 0;
+                speedY = -1;
+                break;
+            case "down":
+                speedX = 0;
+                speedY = 1;
+                break;
+            case "left":
+                speedX = -1;
+                speedY = 0;
+                break;
+            case "right":
+                speedX = 1;
+                speedY = 0;
+                break;
+            default:
         }
     }
 }

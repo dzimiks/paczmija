@@ -14,7 +14,7 @@ public class MainState extends GameState {
 
     @Override
     public boolean handleWindowClose() {
-        return false;
+        return true;
     }
 
     @Override
@@ -70,7 +70,20 @@ public class MainState extends GameState {
 
     @Override
     public void handleKeyDown(int i) {
-
+        switch(i){
+            case 38:
+                KeyEmitter.callListeners("up");
+                break;
+            case 40:
+                KeyEmitter.callListeners("down");
+                break;
+            case 37:
+                KeyEmitter.callListeners("left");
+                break;
+            case 39:
+                KeyEmitter.callListeners("right");
+                break;
+        }
     }
 
     @Override

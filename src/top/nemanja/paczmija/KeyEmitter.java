@@ -7,7 +7,7 @@ public class KeyEmitter {
     private static HashMap<String, ArrayList<KeyEmitterListener>> listeners = null;
 
     public static HashMap<String, ArrayList<KeyEmitterListener>> getListeners(){
-        if(KeyEmitter.getListeners() == null){
+        if(KeyEmitter.listeners == null){
             KeyEmitter.listeners = new HashMap<String, ArrayList<KeyEmitterListener>>();
         }
 
@@ -33,6 +33,12 @@ public class KeyEmitter {
             ArrayList<KeyEmitterListener> listenerArray = listeners.get(key);
 
             listenerArray.add(listener);
+        } else {
+            ArrayList<KeyEmitterListener> listenerArray = new ArrayList<>();
+
+            listenerArray.add(listener);
+
+            listeners.put(key, listenerArray);
         }
     }
 }
