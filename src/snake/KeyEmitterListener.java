@@ -1,4 +1,4 @@
-package top.nemanja.paczmija;
+package snake;
 
 public interface KeyEmitterListener {
     void keyPressed(String key);

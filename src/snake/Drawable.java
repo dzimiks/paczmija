@@ -1,4 +1,4 @@
-package top.nemanja.paczmija;
+package snake;
 
 import java.awt.*;
 

@@ -1,7 +1,7 @@
-package top.nemanja.paczmija.layers.graphicObjects;
+package snake.layers.graphicObjects;
 
-import top.nemanja.paczmija.Drawable;
-import top.nemanja.paczmija.Main;
+import snake.Drawable;
+import snake.Main;
 
 import java.awt.*;
 import java.security.SecureRandom;

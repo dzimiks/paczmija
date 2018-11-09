@@ -1,8 +1,8 @@
-package top.nemanja.paczmija.layers;
+package snake.layers;
 
-import top.nemanja.paczmija.Drawable;
-import top.nemanja.paczmija.KeyEmitter;
-import top.nemanja.paczmija.KeyEmitterListener;
+import snake.Drawable;
+import snake.KeyEmitter;
+import snake.KeyEmitterListener;
 
 import java.awt.*;
 import java.security.SecureRandom;

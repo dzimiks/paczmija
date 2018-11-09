@@ -1,7 +1,7 @@
-package top.nemanja.paczmija.layers;
+package snake.layers;
 
-import top.nemanja.paczmija.Drawable;
-import top.nemanja.paczmija.layers.graphicObjects.Snowflake;
+import snake.Drawable;
+import snake.layers.graphicObjects.Snowflake;
 
 import java.awt.*;
 

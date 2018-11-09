@@ -1,9 +1,13 @@
-package top.nemanja.paczmija;
+package snake;
 
 import rafgfxlib.GameHost;
 import rafgfxlib.GameState;
 
-import top.nemanja.paczmija.layers.*;
+import snake.layers.BackgroundLayer;
+import snake.layers.BlurLayer;
+import snake.layers.SnakeLayer;
+import snake.layers.SnowLayer;
+import snake.layers.*;
 
 import java.awt.*;
 

@@ -1,6 +1,6 @@
-package top.nemanja.paczmija.layers;
+package snake.layers;
 
-import top.nemanja.paczmija.Drawable;
+import snake.Drawable;
 
 import javax.imageio.ImageIO;
 import java.awt.*;

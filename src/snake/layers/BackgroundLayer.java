@@ -1,7 +1,7 @@
-package top.nemanja.paczmija.layers;
+package snake.layers;
 
 import rafgfxlib.Util;
-import top.nemanja.paczmija.Drawable;
+import snake.Drawable;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
