@@ -3,7 +3,7 @@ package top.nemanja.paczmija;
 import rafgfxlib.GameHost;
 import rafgfxlib.GameState;
 import top.nemanja.paczmija.layers.BackgroundLayer;
-import top.nemanja.paczmija.layers.SnowDrawable;
+import top.nemanja.paczmija.layers.SnowLayer;
 
 import java.awt.*;
 
@@ -34,7 +34,7 @@ public class MainState extends GameState {
 
     Drawable[] drawables = {
             new BackgroundLayer(),
-            new SnowDrawable()
+            new SnowLayer()
     };
 
     @Override
@@ -46,7 +46,9 @@ public class MainState extends GameState {
 
     @Override
     public void update() {
-
+        for (Drawable drawable : drawables) {
+            drawable.tick();
+        }
     }
 
     @Override

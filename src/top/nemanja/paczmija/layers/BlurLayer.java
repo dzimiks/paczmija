@@ -9,4 +9,9 @@ public class BlurLayer implements Drawable {
     public void draw(Graphics2D graphics2D, int i, int i1) {
 
     }
+
+    @Override
+    public void tick() {
+
+    }
 }

@@ -52,4 +52,9 @@ public class BackgroundLayer implements Drawable {
     public void draw(Graphics2D graphics2D, int i, int i1) {
         graphics2D.drawImage(this.background, 0,0, this.background.getWidth(), this.background.getHeight(), null);
     }
+
+    @Override
+    public void tick() {
+
+    }
 }
