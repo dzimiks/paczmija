@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="066cf5f5-b2f9-4626-a13a-81a3bfa8b4b4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/top/nemanja/paczmija/layers/BlurLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/nemanja/paczmija/layers/BlurLayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/top/nemanja/paczmija/layers/SnakeLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/nemanja/paczmija/layers/SnakeLayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/top/nemanja/paczmija/layers/SnowLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/nemanja/paczmija/layers/SnowLayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/top/nemanja/paczmija/layers/graphicObjects/Snowflake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/nemanja/paczmija/layers/graphicObjects/Snowflake.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,22 +16,23 @@
     <session id="-733074023">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="33" />
-          <entry key="java" value="6466" />
+          <entry key="java" value="6650" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6466" />
+          <entry key="JAVA" value="6650" />
           <entry key="PLAIN_TEXT" value="33" />
         </counts>
       </usages-collector>
@@ -57,7 +55,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/layers/BlurLayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
+            <state relative-caret-position="165">
               <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -69,7 +67,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/layers/BackgroundLayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
+            <state relative-caret-position="630">
               <caret line="52" column="14" selection-start-line="52" selection-end-line="53" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -81,7 +79,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/layers/graphicObjects/Snowflake.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="825">
               <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -93,8 +91,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/layers/SnakeLayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="44" column="77" selection-start-line="44" selection-start-column="77" selection-end-line="44" selection-end-column="77" />
+            <state relative-caret-position="300">
+              <caret line="57" column="74" selection-start-line="57" selection-start-column="74" selection-end-line="57" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,7 +103,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/layers/SnowLayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
+            <state relative-caret-position="330">
               <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -128,6 +126,7 @@
     <findStrings>
       <find>100</find>
       <find>color.</find>
+      <find>10</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -158,7 +157,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="20" />
     <option name="y" value="2" />
-    <option name="width" value="1326" />
+    <option name="width" value="653" />
     <option name="height" value="727" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -167,6 +166,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,31 +202,17 @@
             </path>
             <path>
               <item name="paczmija" type="b2602c69:ProjectViewProjectNode" />
-              <item name="paczmija" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="paczmija" type="462c0819:PsiDirectoryNode" />
-              <item name="layers" type="462c0819:PsiDirectoryNode" />
-              <item name="SnakeLayer.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="paczmija" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="paczmija" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541790030593" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541790038149" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/RAFGFXlib.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -283,7 +269,7 @@
     <frame x="20" y="2" width="1326" height="727" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.70953435" visible="true" weight="0.1876947" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.70953435" visible="true" weight="0.19003116" />
       <window_info id="Structure" order="1" sideWeight="0.29046562" side_tool="true" weight="0.18535826" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -292,7 +278,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26904377" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26904377" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3987034" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -300,7 +286,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.3273906" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3273906" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -396,9 +382,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="36" column="75" selection-start-line="36" selection-start-column="75" selection-end-line="36" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -423,20 +406,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/layers/BackgroundLayer.java">
+    <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/layers/BlurLayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="52" column="14" selection-start-line="52" selection-end-line="53" />
+        <state relative-caret-position="165">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/layers/BlurLayer.java">
+    <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/layers/BackgroundLayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="32" />
+        <state relative-caret-position="630">
+          <caret line="52" column="14" selection-start-line="52" selection-end-line="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -445,7 +428,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/layers/graphicObjects/Snowflake.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="825">
           <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -455,7 +438,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/layers/SnowLayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
+        <state relative-caret-position="330">
           <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -465,8 +448,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/top/nemanja/paczmija/layers/SnakeLayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="44" column="77" selection-start-line="44" selection-start-column="77" selection-end-line="44" selection-end-column="77" />
+        <state relative-caret-position="300">
+          <caret line="57" column="74" selection-start-line="57" selection-start-column="74" selection-end-line="57" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
