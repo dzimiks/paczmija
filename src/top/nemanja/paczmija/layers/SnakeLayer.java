@@ -6,6 +6,7 @@ import top.nemanja.paczmija.KeyEmitterListener;
 
 import java.awt.*;
 import java.security.SecureRandom;
+import java.util.ArrayList;
 import java.util.LinkedList;
 
 public class SnakeLayer implements Drawable, KeyEmitterListener {
@@ -59,28 +60,68 @@ public class SnakeLayer implements Drawable, KeyEmitterListener {
             headX += speedX;
             headY += speedY;
 
+            boolean hit = false;
+
+            for(Segment segment: segments){
+                if(segment.getX() == headX && segment.getY() == headY){
+                    hit = true;
+                }
+            }
+
+            if(hit){
+                ArrayList<Segment> toDelete = new ArrayList<>();
+
+                for(Segment segment: segments){
+                    toDelete.add(segment);
+
+                    if(segment.getX() == headX && segment.getY() == headY){
+                        break;
+                    }
+                }
+
+                segments.removeAll(toDelete);
+            }
+
             segments.add(new Segment(headX, headY));
         }
     }
+
+    private String direction = "right";
 
     @Override
     public void keyPressed(String key) {
         switch(key){
             case "up":
-                speedX = 0;
-                speedY = -1;
+                if(direction != "down") {
+                    speedX = 0;
+                    speedY = -1;
+
+                    direction = key;
+                }
                 break;
             case "down":
-                speedX = 0;
-                speedY = 1;
+                if(direction != "up") {
+                    speedX = 0;
+                    speedY = 1;
+
+                    direction = key;
+                }
                 break;
             case "left":
-                speedX = -1;
-                speedY = 0;
+                if(direction != "right") {
+                    speedX = -1;
+                    speedY = 0;
+
+                    direction = key;
+                }
                 break;
             case "right":
-                speedX = 1;
-                speedY = 0;
+                if(direction != "left") {
+                    speedX = 1;
+                    speedY = 0;
+
+                    direction = key;
+                }
                 break;
             default:
         }
