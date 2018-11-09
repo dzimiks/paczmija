@@ -1,8 +1,15 @@
 package top.nemanja.paczmija;
 
-public class Main {
+import rafgfxlib.GameHost;
 
+public class Main {
     public static void main(String[] args) {
-	// write your code here
+        GameHost host = new GameHost("Snake", 800, 600, false);
+
+        host.setUpdateRate(60);
+
+        new MainState(host);
+
+        host.setState("game");
     }
 }
