@@ -8,12 +8,14 @@ import java.awt.*;
 public class SnowLayer implements Drawable {
     Snowflake[] flakes;
 
+    private int flakeCount = 150;
+
     public SnowLayer(){
         // TODO: fix width and height
 
-        this.flakes = new Snowflake[100];
+        this.flakes = new Snowflake[flakeCount];
 
-        for(int i = 0; i < 100; i++){
+        for(int i = 0; i < flakeCount; i++){
             this.flakes[i] = new Snowflake();
         }
     }

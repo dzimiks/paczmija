@@ -42,9 +42,11 @@ public class SnakeLayer implements Drawable, KeyEmitterListener {
 
     @Override
     public void draw(Graphics2D graphics2D, int i, int i1) {
+        graphics2D.drawString("Score: " + segments.size() * 5, 20, 40);
+
         for(Segment segment: segments){
-            graphics2D.setColor(Color.green);
-            graphics2D.fillRect(segment.getX() * 10, segment.getY() * 10, 10,10);
+            graphics2D.setColor(Color.white);
+            graphics2D.fillRect(15 + segment.getX() * 10, 15 + segment.getY() * 10, 9,9);
         }
     }
 
@@ -53,6 +55,14 @@ public class SnakeLayer implements Drawable, KeyEmitterListener {
         tick++;
 
         if(tick % 10 == 0) {
+            if(headX + speedX > 76 || headX + speedX < 0){
+                return;
+            }
+
+            if(headY + speedY > 56 || headY + speedY < 0){
+                return;
+            }
+
             if (tick % 100 != 0) {
                 segments.removeFirst();
             }
