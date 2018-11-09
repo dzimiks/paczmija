@@ -11,8 +11,6 @@ public class SnowLayer implements Drawable {
     private int flakeCount = 150;
 
     public SnowLayer(){
-        // TODO: fix width and height
-
         this.flakes = new Snowflake[flakeCount];
 
         for(int i = 0; i < flakeCount; i++){
