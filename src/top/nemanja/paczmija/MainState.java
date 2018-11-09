@@ -2,8 +2,8 @@ package top.nemanja.paczmija;
 
 import rafgfxlib.GameHost;
 import rafgfxlib.GameState;
-import top.nemanja.paczmija.layers.BackgroundLayer;
-import top.nemanja.paczmija.layers.SnowLayer;
+
+import top.nemanja.paczmija.layers.*;
 
 import java.awt.*;
 
@@ -34,7 +34,9 @@ public class MainState extends GameState {
 
     Drawable[] drawables = {
             new BackgroundLayer(),
-            new SnowLayer()
+            new SnowLayer(),
+            new BlurLayer(),
+            new SnakeLayer()
     };
 
     @Override
