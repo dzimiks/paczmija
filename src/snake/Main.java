@@ -9,7 +9,7 @@ public class Main {
         GameHost host = new GameHost("Snake", 800, 600, false);
         Main.gameHost = host;
 
-        host.setUpdateRate(60);
+        host.setUpdateRate(40);
 
         new MainState(host);
 

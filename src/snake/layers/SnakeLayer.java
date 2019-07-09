@@ -26,8 +26,27 @@ public class SnakeLayer implements Drawable, KeyEmitterListener {
         segments = new LinkedList<>();
         segments.add(new Segment(5, 5));
 
-        headX = 5;
-        headY = 5;
+        headX = 20;
+        headY = 20;
+
+        speedX = 1;
+        speedY = 0;
+
+        rnd = new SecureRandom();
+
+        KeyEmitter.listen("up", this);
+        KeyEmitter.listen("down", this);
+        KeyEmitter.listen("left", this);
+        KeyEmitter.listen("right", this);
+    }
+
+    public SnakeLayer(int x, int y) {
+        this.tick = 0;
+        segments = new LinkedList<>();
+        segments.add(new Segment(5, 5));
+
+        headX = x;
+        headY = y;
 
         speedX = 1;
         speedY = 0;

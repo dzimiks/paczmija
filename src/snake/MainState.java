@@ -39,8 +39,11 @@ public class MainState extends GameState {
     Drawable[] drawables = {
             new BackgroundLayer(),
             new SnowLayer(),
+            new SnowLayer(),
+            new SnowLayer(),
             new BlurLayer(),
-            new SnakeLayer()
+            new SnakeLayer(),
+            new SnakeLayer(3, 3)
     };
 
     @Override
